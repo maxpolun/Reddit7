@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Reddit7</string>
+    <string name="default_link_title">Link Title</string>
+    <string name="html_content_type">text/html</string>
+</resources>

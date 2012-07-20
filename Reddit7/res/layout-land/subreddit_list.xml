@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <fragment
+        android:id="@+id/subreddit_list"
+        android:name="com.maxpolun.reddit7.SubredditListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.20"
+        tools:layout="@android:layout/list_content" />
+
+    <FrameLayout
+        android:id="@+id/link_list_frame"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.40" />
+
+        
+
+    <FrameLayout
+        android:id="@+id/link_frame"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.40" />
+
+</LinearLayout>
